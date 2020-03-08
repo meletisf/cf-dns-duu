@@ -1,0 +1,23 @@
+{
+  "name": "cf-dns-duu",
+  "version": "1.0.0",
+  "description": "A simple service to update a cloudflare record with your IP",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "dns", "cloudflare", "ip"
+  ],
+  "contributors": [
+    "Meletis Flevarakis <fmeletis85@gmail.com>",
+    "Thomas Rogdakis <thomas@codingslime.eu>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cloudflare": "^2.7.0",
+    "winston": "^3.2.1",
+    "winston-pusher": "^1.1.1"
+  }
+}
